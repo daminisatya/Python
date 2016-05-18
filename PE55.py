@@ -1,3 +1,4 @@
+
 def is_lychrel(n):
     n = str(n)
     for count in xrange(0, 50):
