@@ -4,9 +4,7 @@ import time
 gridSize = [20,20]
  
 def recPath(gridSize):
-    """
-    Recursive solution to grid problem. Input is a list of x,y moves remaining.
-    """
+
     # base case, no moves left
     if gridSize == [0,0]: return 1
     # recursive calls
