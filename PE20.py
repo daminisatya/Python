@@ -5,6 +5,7 @@ def digits(n):
         n = n / 10
     return s
 
+
 n = 1
 for i in xrange(1,100): n = n*i
 print digits(n)
