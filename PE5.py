@@ -1,6 +1,5 @@
 import time
  
-# function to factor a given positive integer n
 def factors(n):
     factors = []
     # remove any factors of 2 first
