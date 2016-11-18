@@ -4,7 +4,6 @@ def largest_prime_factor(n):
  
     largest_factor = 1
  
-    # remove any factors of 2 first
     while n % 2 == 0:
         largest_factor = 2
         n = n/2
