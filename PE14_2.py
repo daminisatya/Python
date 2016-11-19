@@ -12,6 +12,7 @@ def collatz(n, count=1):
     return count
  
 max = [0,0]
+
 for i in range(1000000):
     c = collatz(i)
     if c > max[0]:
