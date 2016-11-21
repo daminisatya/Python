@@ -23,5 +23,6 @@ start = time.time()
 ans = sum_pairs(amicable_pairs_xrange(1,10000))
  
 elapsed = time.time() - start
+
  
 print("%s found in %s seconds") % (ans,elapsed)
